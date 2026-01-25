@@ -1,0 +1,160 @@
+version: 2
+
+metadata:
+  title: Operator Workload
+  description: Strict workload payload composed by the Operator AI.
+
+required:
+  - segments
+
+segments:
+  item:
+    required:
+      - state
+    optional:
+      - modulators
+      - transition
+      - exit
+      - interruptible
+
+    state:
+      required:
+        - field_program
+      optional:
+        - coupling
+        - spatial
+        - symbol
+        - palette
+        - artifacts
+        - ui
+
+      field_program:
+        required:
+          - generators
+        optional:
+          - interactions
+          - update_rate_hz
+          - resolution
+
+        generators:
+          item:
+            required:
+              - id
+              - weight
+            optional:
+              - params
+            id: {ref: control-plane.registry.generator_ids}
+            weight: {range: control-plane.ranges.weight}
+            params: {ref: control-plane.schemas.generator_params}
+
+        interactions:
+          item:
+            required:
+              - source_id
+              - target_id
+              - mode
+            optional:
+              - params
+            mode: {type: string}
+            params: {type: object}
+
+        update_rate_hz: {range: control-plane.ranges.rate_hz}
+        resolution:
+          width: {type: int, min: 1}
+          height: {type: int, min: 1}
+
+      coupling:
+        mappings:
+          item:
+            ref: control-plane.schemas.coupling_map
+
+      spatial:
+        regions:
+          item:
+            required: [id, rect]
+            rect: {type: float_range4, range: control-plane.ranges.unit}
+        masks:
+          item:
+            required: [id, shape]
+            optional: [transform, invert, softness]
+        anchors:
+          item:
+            required: [id, position]
+            position: {type: float_range2, range: control-plane.ranges.unit}
+
+      symbol:
+        glyph_set_id: {type: string}
+        glyph_mix:
+          item:
+            required: [glyphs]
+            optional: [weight]
+        density_curve: {type: float_array}
+        text_layers:
+          item:
+            required: [content, region]
+
+      palette:
+        palette_id: {type: string}
+        colors:
+          item: {type: rgb}
+        mapping:
+          mode: {type: string}
+          contrast: {range: control-plane.ranges.unit}
+          gamma: {range: control-plane.ranges.unit}
+
+      artifacts:
+        item:
+          required: [handle, transform, blend]
+          handle: {type: string}
+          role: {type: string}
+          transform:
+            pos: {type: float_range2, range: control-plane.ranges.unit}
+            scale: {range: control-plane.ranges.unit}
+            rotation: {range: control-plane.ranges.angle}
+          blend:
+            mode: {ref: control-plane.registry.blend_modes}
+            opacity: {range: control-plane.ranges.unit}
+          behavior:
+            drift: {type: float_range2, range: control-plane.ranges.unit}
+            noise: {type: object}
+            fade:
+              in_seconds: {type: float, min: 0}
+              out_seconds: {type: float, min: 0}
+
+      ui:
+        item:
+          required: [ui_id, region, render]
+          ui_id: {type: string}
+          region:
+            id: {type: string}
+            rect: {type: float_range4, range: control-plane.ranges.unit}
+          render:
+            glyph_rows: {type: string_array}
+            color_rows: {type: rgb_grid}
+            alpha_rows: {type: float_grid}
+          input_bindings:
+            item:
+              required: [event, target_path, value_type]
+          visibility:
+            auto_hide_seconds: {type: float, min: 0}
+            visible: {type: bool}
+
+    modulators:
+      item:
+        ref: control-plane.schemas.modulator
+
+    transition:
+      duration_seconds: {type: float, min: 0}
+      blend_profile: {type: float_array}
+
+    exit:
+      time_seconds: {type: float, min: 0}
+      beats: {type: int, min: 1}
+      event: {type: string}
+      max_seconds: {type: float, min: 0}
+
+    interruptible: {type: bool}
+
+notes:
+  - This schema is strict and references control-plane.schema.yaml.
+  - The runtime resolves refs before validation.

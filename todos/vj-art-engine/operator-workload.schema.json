@@ -1,0 +1,498 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OperatorWorkload",
+  "type": "object",
+  "description": "Strict workload produced by the Operator AI. Executed by the runtime to drive the control plane.",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version identifier.",
+      "examples": ["workload.v2"]
+    },
+    "segments": {
+      "type": "array",
+      "description": "Ordered control segments to execute in sequence.",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/segment" }
+    }
+  },
+  "required": ["version", "segments"],
+  "$defs": {
+    "segment": {
+      "type": "object",
+      "description": "A concrete control segment with state, modulators, and exit conditions.",
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "$ref": "#/$defs/control_state"
+        },
+        "modulators": {
+          "type": "array",
+          "description": "Continuous modulators applied during the segment.",
+          "items": { "$ref": "#/$defs/modulator" }
+        },
+        "transition": {
+          "$ref": "#/$defs/transition"
+        },
+        "exit": {
+          "$ref": "#/$defs/exit_conditions"
+        },
+        "interruptible": {
+          "type": "boolean",
+          "description": "Whether this segment can be preempted by a newer workload.",
+          "default": true
+        }
+      },
+      "required": ["state"]
+    },
+    "control_state": {
+      "type": "object",
+      "description": "Concrete control plane state applied for a segment.",
+      "additionalProperties": false,
+      "properties": {
+        "field_program": { "$ref": "#/$defs/field_program" },
+        "coupling": { "$ref": "#/$defs/coupling" },
+        "spatial": { "$ref": "#/$defs/spatial" },
+        "symbol": { "$ref": "#/$defs/symbol" },
+        "palette": { "$ref": "#/$defs/palette" },
+        "artifacts": {
+          "type": "array",
+          "description": "Resolved artifacts embedded in the field.",
+          "items": { "$ref": "#/$defs/artifact" }
+        },
+        "ui": {
+          "type": "array",
+          "description": "UI sprites with bindings for input events.",
+          "items": { "$ref": "#/$defs/ui_sprite" }
+        }
+      },
+      "required": ["field_program"]
+    },
+    "field_program": {
+      "type": "object",
+      "description": "Generator stack and interaction rules for the dynamic field.",
+      "additionalProperties": false,
+      "properties": {
+        "generators": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/generator" }
+        },
+        "interactions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/interaction" }
+        },
+        "update_rate_hz": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Optional update rate for the field simulation."
+        },
+        "resolution": {
+          "type": "object",
+          "description": "Optional resolution override for the field simulation.",
+          "additionalProperties": false,
+          "properties": {
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 }
+          }
+        }
+      },
+      "required": ["generators"]
+    },
+    "generator": {
+      "type": "object",
+      "description": "A single generator within the field program.",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Generator identifier (engine-defined).",
+          "examples": ["nca", "reaction_diffusion", "flow_field"]
+        },
+        "weight": {
+          "type": "number",
+          "description": "Blend weight for this generator.",
+          "minimum": 0
+        },
+        "params": {
+          "$ref": "#/$defs/param_set"
+        }
+      },
+      "required": ["id"]
+    },
+    "interaction": {
+      "type": "object",
+      "description": "Interaction between generators or fields.",
+      "additionalProperties": false,
+      "properties": {
+        "source_id": { "type": "string" },
+        "target_id": { "type": "string" },
+        "mode": {
+          "type": "string",
+          "description": "Engine-defined interaction mode identifier."
+        },
+        "params": { "$ref": "#/$defs/param_set" }
+      },
+      "required": ["source_id", "target_id", "mode"]
+    },
+    "coupling": {
+      "type": "object",
+      "description": "Mappings from field outputs to render channels.",
+      "additionalProperties": false,
+      "properties": {
+        "mappings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/coupling_map" }
+        }
+      }
+    },
+    "coupling_map": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": { "type": "string", "description": "Field output path." },
+        "target": { "type": "string", "description": "Render channel path." },
+        "range": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "curve": {
+          "type": "array",
+          "description": "Optional curve samples in [0,1] for mapping.",
+          "items": { "type": "number", "minimum": 0, "maximum": 1 },
+          "minItems": 2
+        }
+      },
+      "required": ["source", "target"]
+    },
+    "spatial": {
+      "type": "object",
+      "description": "Spatial regions, masks, and anchors.",
+      "additionalProperties": false,
+      "properties": {
+        "regions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/region" }
+        },
+        "masks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/mask" }
+        },
+        "anchors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/anchor" }
+        }
+      }
+    },
+    "region": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "rect": {
+          "type": "array",
+          "description": "Normalized rect [x, y, w, h].",
+          "items": { "type": "number" },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "role": { "type": "string" }
+      },
+      "required": ["id", "rect"]
+    },
+    "mask": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "shape": { "type": "string" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "invert": { "type": "boolean" },
+        "softness": { "type": "number", "minimum": 0 }
+      },
+      "required": ["id", "shape"]
+    },
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "position": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "influence": { "type": "number", "minimum": 0 }
+      },
+      "required": ["id", "position"]
+    },
+    "symbol": {
+      "type": "object",
+      "description": "Glyph selection and text layering.",
+      "additionalProperties": false,
+      "properties": {
+        "glyph_set_id": { "type": "string" },
+        "glyph_mix": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/glyph_mix" }
+        },
+        "density_curve": {
+          "type": "array",
+          "items": { "type": "number", "minimum": 0, "maximum": 1 },
+          "minItems": 2
+        },
+        "text_layers": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/text_layer" }
+        }
+      }
+    },
+    "glyph_mix": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "glyphs": { "type": "string", "description": "Glyph string to sample from." },
+        "weight": { "type": "number", "minimum": 0 }
+      },
+      "required": ["glyphs"]
+    },
+    "text_layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content": { "type": "string" },
+        "region": { "$ref": "#/$defs/region" },
+        "style": { "$ref": "#/$defs/text_style" }
+      },
+      "required": ["content", "region"]
+    },
+    "text_style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "font_id": { "type": "string" },
+        "weight": { "type": "number", "minimum": 0 },
+        "italic": { "type": "boolean" },
+        "outline": { "type": "boolean" }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "description": "Color palette and mapping rules.",
+      "additionalProperties": false,
+      "properties": {
+        "palette_id": { "type": "string" },
+        "colors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/color" },
+          "minItems": 1
+        },
+        "mapping": { "$ref": "#/$defs/palette_mapping" }
+      }
+    },
+    "palette_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "type": "string" },
+        "contrast": { "type": "number" },
+        "gamma": { "type": "number" }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "description": "Resolved artifact with concrete placement and behavior.",
+      "additionalProperties": false,
+      "properties": {
+        "handle": { "type": "string" },
+        "role": { "type": "string" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "blend": { "$ref": "#/$defs/blend" },
+        "behavior": { "$ref": "#/$defs/behavior" }
+      },
+      "required": ["handle"]
+    },
+    "ui_sprite": {
+      "type": "object",
+      "description": "Renderable UI sprite with input bindings.",
+      "additionalProperties": false,
+      "properties": {
+        "ui_id": { "type": "string" },
+        "region": { "$ref": "#/$defs/region" },
+        "render": { "$ref": "#/$defs/ui_render" },
+        "input_bindings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ui_binding" }
+        },
+        "visibility": { "$ref": "#/$defs/visibility" }
+      },
+      "required": ["ui_id", "region", "render"]
+    },
+    "ui_render": {
+      "type": "object",
+      "description": "Glyph buffer and color buffer for UI rendering.",
+      "additionalProperties": false,
+      "properties": {
+        "glyph_rows": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Row-major glyph rows. Each string length equals region width."
+        },
+        "color_rows": {
+          "type": "array",
+          "description": "Row-major color rows matching glyph_rows.",
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/color" }
+          }
+        },
+        "alpha_rows": {
+          "type": "array",
+          "description": "Optional alpha mask rows (0..1).",
+          "items": {
+            "type": "array",
+            "items": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      },
+      "required": ["glyph_rows"]
+    },
+    "ui_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "event": {
+          "type": "string",
+          "description": "Input event identifier (engine-defined)."
+        },
+        "target_path": {
+          "type": "string",
+          "description": "Control path to update on event."
+        },
+        "value_type": {
+          "type": "string",
+          "description": "Type of value expected from the UI event."
+        },
+        "transform": { "$ref": "#/$defs/param_set" }
+      },
+      "required": ["event", "target_path", "value_type"]
+    },
+    "visibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "auto_hide_seconds": { "type": "number", "minimum": 0 },
+        "visible": { "type": "boolean" }
+      }
+    },
+    "transform": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pos": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "scale": { "type": "number", "minimum": 0 },
+        "rotation": { "type": "number" }
+      }
+    },
+    "blend": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "type": "string" },
+        "opacity": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "behavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "drift": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "noise": { "$ref": "#/$defs/param_set" },
+        "fade": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "in_seconds": { "type": "number", "minimum": 0 },
+            "out_seconds": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "modulator": {
+      "type": "object",
+      "description": "Maps a dynamic source to a control path.",
+      "additionalProperties": false,
+      "properties": {
+        "target_path": { "type": "string" },
+        "source": { "type": "string" },
+        "range": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "rate_hz": { "type": "number", "minimum": 0 },
+        "depth": { "type": "number", "minimum": 0 }
+      },
+      "required": ["target_path", "source"]
+    },
+    "transition": {
+      "type": "object",
+      "description": "Deterministic transition between segments.",
+      "additionalProperties": false,
+      "properties": {
+        "duration_seconds": { "type": "number", "minimum": 0 },
+        "blend_profile": {
+          "type": "array",
+          "items": { "type": "number", "minimum": 0, "maximum": 1 },
+          "minItems": 2
+        }
+      }
+    },
+    "exit_conditions": {
+      "type": "object",
+      "description": "Conditions that advance the segment.",
+      "additionalProperties": false,
+      "properties": {
+        "time_seconds": { "type": "number", "minimum": 0 },
+        "beats": { "type": "integer", "minimum": 1 },
+        "event": { "type": "string" },
+        "max_seconds": { "type": "number", "minimum": 0 }
+      }
+    },
+    "color": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 255 },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "param_set": {
+      "type": "object",
+      "description": "Engine-specific numeric parameters.",
+      "additionalProperties": {
+        "anyOf": [
+          { "type": "number" },
+          { "type": "boolean" },
+          {
+            "type": "array",
+            "items": { "type": "number" }
+          }
+        ]
+      }
+    }
+  }
+}

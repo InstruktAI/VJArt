@@ -1,0 +1,131 @@
+version: 2
+
+metadata:
+  title: VJ Art Engine Control Plane
+  description: Authoritative control-plane contract for generator composition, channels, and ranges.
+
+registry:
+  generator_ids:
+    - nca
+    - reaction_diffusion
+    - flow_field
+    - curl_noise
+    - wave_lattice
+    - domain_warp
+    - symmetry
+    - glitch
+    - noise_field
+
+  field_channels:
+    - energy
+    - density
+    - velocity_x
+    - velocity_y
+    - entropy
+    - curvature
+    - phase
+    - divergence
+
+  blend_modes:
+    - add
+    - screen
+    - multiply
+    - overlay
+    - max
+    - min
+    - mask
+
+  modulator_sources:
+    - beat
+    - time
+    - noise
+    - user
+    - asset
+    - external
+
+  glyph_channels:
+    - glyph_density
+    - glyph_entropy
+    - glyph_bias
+    - glyph_drift
+
+  palette_channels:
+    - hue_center
+    - hue_range
+    - saturation
+    - brightness
+    - contrast
+    - gamma
+
+ranges:
+  unit: {min: 0.0, max: 1.0}
+  percent: {min: 0.0, max: 100.0}
+  angle: {min: -3.14159, max: 3.14159}
+  rate_hz: {min: 0.0, max: 20.0}
+  weight: {min: 0.0, max: 1.0}
+
+schemas:
+  generator:
+    required: [id, weight]
+    optional: [params]
+
+  generator_params:
+    nca:
+      kernel_size: {type: int, min: 1, max: 9}
+      steps_per_frame: {type: int, min: 1, max: 20}
+      diffusion: {type: float, range: unit}
+      chaos: {type: float, range: unit}
+    reaction_diffusion:
+      feed: {type: float, range: unit}
+      kill: {type: float, range: unit}
+      diffusion_a: {type: float, range: unit}
+      diffusion_b: {type: float, range: unit}
+    flow_field:
+      scale: {type: float, min: 0.01, max: 10.0}
+      strength: {type: float, range: unit}
+      octaves: {type: int, min: 1, max: 8}
+    curl_noise:
+      scale: {type: float, min: 0.01, max: 10.0}
+      strength: {type: float, range: unit}
+    wave_lattice:
+      frequency: {type: float, min: 0.1, max: 20.0}
+      amplitude: {type: float, range: unit}
+      phase: {type: float, range: angle}
+    domain_warp:
+      warp_scale: {type: float, min: 0.01, max: 10.0}
+      warp_strength: {type: float, range: unit}
+    symmetry:
+      axes: {type: int, min: 1, max: 12}
+      mirror: {type: bool}
+    glitch:
+      rate: {type: float, range: unit}
+      intensity: {type: float, range: unit}
+      quantize: {type: float, range: unit}
+    noise_field:
+      scale: {type: float, min: 0.01, max: 10.0}
+      octaves: {type: int, min: 1, max: 8}
+      persistence: {type: float, range: unit}
+
+  coupling_map:
+    required: [source, target]
+    source: {enum: registry.field_channels}
+    target: {enum: [glyph_density, glyph_entropy, hue_center, hue_range, saturation, brightness, contrast, gamma]}
+    range: {type: float_range, range: unit}
+
+  modulator:
+    required: [target_path, source]
+    source: {enum: registry.modulator_sources}
+    range: {type: float_range, range: unit}
+    rate_hz: {type: float, range: rate_hz}
+    depth: {type: float, range: unit}
+
+  artifact:
+    required: [handle, transform, blend]
+    blend_mode: {enum: registry.blend_modes}
+
+  ui_sprite:
+    required: [ui_id, region, render]
+
+notes:
+  - control-plane schema is a reference contract used by operator workloads.
+  - generator params are engine-specific; extend by adding new generator blocks.
