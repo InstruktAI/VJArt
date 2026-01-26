@@ -24,10 +24,10 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
    - Ensure `.agents/agents/operator.md` exists and is referenced by the repo.
 
 ## Phase 1 — Core API + Orchestration
-1) Intent endpoint (Creator → Operator handoff).
-2) Workload endpoint (Operator → engine execution).
-3) Control index endpoint (read‑only discovery).
-4) State summary endpoint (compact field metrics).
+1) [x] Intent endpoint (Creator → Operator handoff).
+2) [x] Workload endpoint (Operator → engine execution).
+3) [x] Control index endpoint (read‑only discovery).
+4) [x] State summary endpoint (compact field metrics).
 5) Defer OpenAPI until server exists; generate from code and embed schemas.
 
 ## Phase 1.5 — Local bridge
