@@ -2,6 +2,7 @@ import express from 'express'
 import { WebSocketServer, WebSocket } from 'ws'
 import http from 'http'
 import { VJEngine } from '@vj-art/engine'
+import { OperatorWorkload, WorkloadSegment } from '@vj-art/engine/dist/types'
 
 const app = express()
 app.use(express.json())
@@ -29,11 +30,33 @@ wss.on('connection', (ws) => {
   clients.add(ws)
   console.log('Client connected')
   
-  if (currentWorkload) {
-    ws.send(JSON.stringify({ type: 'WORKLOAD', data: currentWorkload }))
-  }
-
-  ws.on('close', () => {
+      if (currentWorkload) {
+  
+      ws.send(JSON.stringify({ type: 'WORKLOAD', data: currentWorkload }))
+  
+    }
+  
+  
+  
+    ws.on('message', (data) => {
+  
+      const message = JSON.parse(data.toString())
+  
+      if (message.type === 'INPUT') {
+  
+        console.log('Received client input:', message.data)
+  
+        // This would be mapped to control changes via intent mapping
+  
+      }
+  
+    })
+  
+  
+  
+    ws.on('close', () => {
+  
+  
     clients.delete(ws)
     console.log('Client disconnected')
   })
@@ -48,6 +71,40 @@ app.post('/intent', (req, res) => {
 })
 
 // Operator -> Engine execution
+app.post('/workload/test-ui', (req, res) => {
+  const workload = {
+    segments: [{
+      state: {
+        field_program: { generators: [{ id: 'nca', weight: 0.5 }] },
+        ui: [{
+          ui_id: 'banner',
+          region: { id: 'top', rect: [0.2, 0.2, 0.6, 0.2] as [number, number, number, number] },
+          render: {
+            glyph_rows: [
+              '┌──────────┐',
+              '│ VJ ART   │',
+              '└──────────┘'
+            ],
+            color_rows: [],
+            alpha_rows: []
+          }
+        }]
+      }
+    }]
+  }
+  currentWorkload = workload
+  engine.applyWorkload(workload.segments[0])
+  
+  const payload = JSON.stringify({ type: 'WORKLOAD', data: workload })
+  clients.forEach(client => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(payload)
+    }
+  })
+  
+  res.json({ status: 'ui-test-triggered' })
+})
+
 app.post('/workload', (req, res) => {
   const workload = req.body
   currentWorkload = workload

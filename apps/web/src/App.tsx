@@ -28,6 +28,13 @@ function App() {
       console.log('Disconnected from bridge')
     }
 
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ type: 'INPUT', data: { key: e.key, type: 'keydown' } }))
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+
     const interval = setInterval(() => {
       engineRef.current.update()
       setGrid([...engineRef.current.getGrid()])

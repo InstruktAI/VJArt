@@ -57,18 +57,18 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
 - Workspace layout: monorepo with apps/packages.
 
 ## Phase 4 — UI intent execution
-1) Operator → UI payload generation (glyph matrix + input map).
-2) Input binding dispatch (keyboard/mouse to mapped controls).
-3) UI lifecycle behavior (visible/hidden/removed per intent).
+1) [x] Operator → UI payload generation (glyph matrix + input map).
+2) [x] Input binding dispatch (keyboard/mouse to mapped controls).
+3) [x] UI lifecycle behavior (visible/hidden/removed per intent).
 
 ## Phase 5 — Documentation
-1) Creator/Operator prompt docs.
-2) Intent schema guide.
-3) Operator workload guide.
-4) VJ‑oriented examples.
-5) Verify Definition of Done:
+1) [x] Creator/Operator prompt docs.
+2) [x] Intent schema guide.
+3) [x] Operator workload guide.
+4) [x] VJ‑oriented examples.
+5) [x] Verify Definition of Done:
    `software-development/standards/definition-of-done`.
-6) Add `README.md` describing intent + local run instructions.
+6) [x] Add `README.md` describing intent + local run instructions.
 
 ## Open questions
 - Exact L0 control graph shape (first concrete draft).

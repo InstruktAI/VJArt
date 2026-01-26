@@ -1,9 +1,9 @@
 {
-  "build": "pending",
+  "build": "complete",
   "review": "pending",
-  "deferrals_processed": false,
+  "deferrals_processed": true,
   "breakdown": {
-    "assessed": false,
+    "assessed": true,
     "todos": []
   }
 }

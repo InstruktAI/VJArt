@@ -25,6 +25,26 @@ export class VJEngine {
     this.update()
   }
 
+  private drawUI() {
+    if (!this.currentState?.ui) return
+
+    this.currentState.ui.forEach(sprite => {
+      const { rect } = sprite.region
+      const startX = Math.floor(rect[0] * this.width)
+      const startY = Math.floor(rect[1] * this.height)
+      
+      sprite.render.glyph_rows.forEach((row, dy) => {
+        for (let dx = 0; dx < row.length; dx++) {
+          const x = startX + dx
+          const y = startY + dy
+          if (x < this.width && y < this.height) {
+            this.grid[y]![x] = row[dx]!
+          }
+        }
+      })
+    })
+  }
+
   public update() {
     if (!this.currentState) return
 
@@ -42,6 +62,8 @@ export class VJEngine {
         }
       }
     }
+
+    this.drawUI()
   }
 
   public getGrid(): string[][] {
