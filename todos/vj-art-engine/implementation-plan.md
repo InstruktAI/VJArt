@@ -31,8 +31,8 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
 5) Defer OpenAPI until server exists; generate from code and embed schemas.
 
 ## Phase 1.5 — Local bridge
-1) Minimal Node-based local bridge (WebSocket workload stream).
-2) Client subscribes to workloads and runs engine locally.
+1) [x] Minimal Node-based local bridge (WebSocket workload stream).
+2) [x] Client subscribes to workloads and runs engine locally.
 
 ## Phase 2 — Input Automation
 1) Asset ingestion pipeline (drop → ASCII JSON + tags).
