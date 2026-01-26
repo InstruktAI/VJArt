@@ -39,17 +39,13 @@ wss.on('connection', (ws) => {
   
   
     ws.on('message', (data) => {
-  
       const message = JSON.parse(data.toString())
-  
       if (message.type === 'INPUT') {
-  
         console.log('Received client input:', message.data)
-  
-        // This would be mapped to control changes via intent mapping
-  
+        if (message.data.type === 'keydown') {
+          engine.handleInput(message.data.key)
+        }
       }
-  
     })
   
   
