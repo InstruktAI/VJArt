@@ -11,15 +11,15 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
 - Client‑side execution with local workload bridge
 
 ## Phase 0 — Schemas + Roles
-1) Finalize intent/workload schemas (v1).
-2) Define Creator/Operator roles and system prompts.
-3) Author `.agents/agents/operator.md` using agent artifact schema.
-4) Create docs scaffolding for snippets and prompt context.
-5) Store system prompts in `docs/role/` and reference schemas.
-6) Create `schemas/` and add:
+1) [x] Finalize intent/workload schemas (v1).
+2) [x] Define Creator/Operator roles and system prompts.
+3) [x] Author `.agents/agents/operator.md` using agent artifact schema.
+4) [x] Create docs scaffolding for snippets and prompt context.
+5) [x] Store system prompts in `docs/role/` and reference schemas.
+6) [x] Create `schemas/` and add:
    - `control-plane.schema.yaml`
    - `operator-workload.schema.yaml`
-7) Wire agent runtime bootstrapping:
+7) [x] Wire agent runtime bootstrapping:
    - `AGENTS.md` required reads load Creator role + baseline.
    - Ensure `.agents/agents/operator.md` exists and is referenced by the repo.
 
