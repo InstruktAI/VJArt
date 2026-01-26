@@ -1,15 +1,33 @@
 import { State, WorkloadSegment } from './types'
 
+export interface RendererCapabilities {
+  id: string
+  name: string
+  supportedGenerators: string[]
+  maxResolution: { width: number; height: number }
+  costTier: 'low' | 'med' | 'high'
+}
+
 export class VJEngine {
   private currentState: State | null = null
   private grid: string[][] = []
   private width: number = 80
   private height: number = 40
+  private registeredRenderers: Map<string, RendererCapabilities> = new Map()
 
   constructor(width: number = 80, height: number = 40) {
     this.width = width
     this.height = height
     this.initGrid()
+  }
+
+  public registerRenderer(capabilities: RendererCapabilities) {
+    this.registeredRenderers.set(capabilities.id, capabilities)
+    console.log(`Renderer registered: ${capabilities.name} (${capabilities.id})`)
+  }
+
+  public getCapabilities(): RendererCapabilities[] {
+    return Array.from(this.registeredRenderers.values())
   }
 
   private initGrid() {
@@ -20,8 +38,11 @@ export class VJEngine {
 
   public applyWorkload(workload: WorkloadSegment) {
     this.currentState = workload.state
-    // This is where the magic happens: generators, coupling, etc.
-    // For now, let's just do a simple NCA-like update stub
+    if (this.currentState.field_program.resolution) {
+      this.width = this.currentState.field_program.resolution.width
+      this.height = this.currentState.field_program.resolution.height
+      this.initGrid()
+    }
     this.update()
   }
 

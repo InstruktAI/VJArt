@@ -2,7 +2,7 @@ import express from 'express'
 import { WebSocketServer, WebSocket } from 'ws'
 import http from 'http'
 import { VJEngine } from '@vj-art/engine'
-import { OperatorWorkload, WorkloadSegment } from '@vj-art/engine/dist/types'
+import { OperatorWorkload } from '@vj-art/engine/dist/types'
 
 const app = express()
 app.use(express.json())
@@ -11,7 +11,7 @@ const server = http.createServer(app)
 const wss = new WebSocketServer({ server })
 
 const engine = new VJEngine(40, 20)
-let currentWorkload: any = null
+let currentWorkload: OperatorWorkload | null = null
 let clients: Set<WebSocket> = new Set()
 
 function renderTUI() {
@@ -64,7 +64,7 @@ wss.on('connection', (ws) => {
 
 // Creator -> Operator handoff (simplified for now)
 app.post('/intent', (req, res) => {
-  const intent = req.body
+  const intent = req.body as Record<string, unknown>
   console.log('Received intent:', intent)
   // In a real scenario, this would trigger the Operator AI
   res.json({ status: 'received', intent })
@@ -150,7 +150,7 @@ app.get('/assets/:handle', (req, res) => {
   }
 })
 
-let currentRhythm: any = { bpm: 120, pulse: false }
+let currentRhythm: { bpm: number; pulse: boolean } = { bpm: 120, pulse: false }
 
 app.post('/rhythm', (req, res) => {
   currentRhythm = { ...currentRhythm, ...req.body }

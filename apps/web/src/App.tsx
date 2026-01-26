@@ -8,6 +8,14 @@ function App() {
   const engineRef = useRef(new VJEngine(80, 40))
 
   useEffect(() => {
+    engineRef.current.registerRenderer({
+      id: 'webgl-primary',
+      name: 'WebGL ASCII Renderer',
+      supportedGenerators: ['nca', 'flow_field', 'curl_noise'],
+      maxResolution: { width: 1920, height: 1080 },
+      costTier: 'med'
+    })
+
     const ws = new WebSocket('ws://localhost:3000')
 
     ws.onopen = () => {
