@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.DS_Store
+
+# Build artifacts in src
+**/src/**/*.js
+**/src/**/*.js.map
+**/src/**/*.d.ts
+
+# Except for those that might be intentionally JS in src (if any, but here we prefer TS)
+# If we have JS files that SHOULD be tracked, we can use ! patterns.

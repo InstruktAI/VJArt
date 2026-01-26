@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "test": "echo 'No tests yet'",
     "preview": "vite preview"
   },
   "keywords": [],

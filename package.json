@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm test --workspaces",
     "lint": "eslint .",
-    "build": "npm run build --workspaces"
+    "build": "npm run build -w packages/engine && npm run build -w packages/bridge && npm run build -w apps/web"
   },
   "keywords": [],
   "author": "",
