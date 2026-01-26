@@ -3,18 +3,29 @@ export class VJEngine {
     grid = [];
     width = 80;
     height = 40;
+    registeredRenderers = new Map();
     constructor(width = 80, height = 40) {
         this.width = width;
         this.height = height;
         this.initGrid();
+    }
+    registerRenderer(capabilities) {
+        this.registeredRenderers.set(capabilities.id, capabilities);
+        console.log(`Renderer registered: ${capabilities.name} (${capabilities.id})`);
+    }
+    getCapabilities() {
+        return Array.from(this.registeredRenderers.values());
     }
     initGrid() {
         this.grid = Array.from({ length: this.height }, () => Array.from({ length: this.width }, () => ' '));
     }
     applyWorkload(workload) {
         this.currentState = workload.state;
-        // This is where the magic happens: generators, coupling, etc.
-        // For now, let's just do a simple NCA-like update stub
+        if (this.currentState.field_program.resolution) {
+            this.width = this.currentState.field_program.resolution.width;
+            this.height = this.currentState.field_program.resolution.height;
+            this.initGrid();
+        }
         this.update();
     }
     drawUI() {
