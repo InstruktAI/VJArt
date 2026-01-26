@@ -35,9 +35,9 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
 2) [x] Client subscribes to workloads and runs engine locally.
 
 ## Phase 2 — Input Automation
-1) Asset ingestion pipeline (drop → ASCII JSON + tags).
-2) Asset registry endpoints (list, fetch by handle).
-3) Rhythm inputs: tap‑tempo + mic beat detection.
+1) [x] Asset ingestion pipeline (drop → ASCII JSON + tags).
+2) [x] Asset registry endpoints (list, fetch by handle).
+3) [x] Rhythm inputs: tap‑tempo + mic beat detection.
 
 ## Phase 3 — Rendering
 1) WebGL renderer (primary) with ASCII grid mapping.
