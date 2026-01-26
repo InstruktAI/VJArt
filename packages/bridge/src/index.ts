@@ -1,6 +1,7 @@
 import express from 'express'
 import { WebSocketServer, WebSocket } from 'ws'
 import http from 'http'
+import { VJEngine } from '@vj-art/engine'
 
 const app = express()
 app.use(express.json())
@@ -8,8 +9,21 @@ app.use(express.json())
 const server = http.createServer(app)
 const wss = new WebSocketServer({ server })
 
+const engine = new VJEngine(40, 20)
 let currentWorkload: any = null
 let clients: Set<WebSocket> = new Set()
+
+function renderTUI() {
+  if (!currentWorkload) return
+  engine.update()
+  const grid = engine.getGrid()
+  console.clear()
+  console.log('--- VJ ART ENGINE TUI ---')
+  grid.forEach(row => console.log(row.join('')))
+  console.log('-------------------------')
+}
+
+setInterval(renderTUI, 200)
 
 wss.on('connection', (ws) => {
   clients.add(ws)
@@ -39,6 +53,10 @@ app.post('/workload', (req, res) => {
   currentWorkload = workload
   console.log('Received workload update')
   
+  if (workload.segments && workload.segments[0]) {
+    engine.applyWorkload(workload.segments[0])
+  }
+
   const payload = JSON.stringify({ type: 'WORKLOAD', data: workload })
   clients.forEach(client => {
     if (client.readyState === WebSocket.OPEN) {

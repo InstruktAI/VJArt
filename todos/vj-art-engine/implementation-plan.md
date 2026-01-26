@@ -40,9 +40,9 @@ Deliver a minimal, AI‑orchestrated ASCII VJ engine with:
 3) [x] Rhythm inputs: tap‑tempo + mic beat detection.
 
 ## Phase 3 — Rendering
-1) WebGL renderer (primary) with ASCII grid mapping.
-2) TUI renderer (secondary) driven by same control graph.
-3) Renderer capability discovery + adaptation.
+1) [x] WebGL renderer (primary) with ASCII grid mapping.
+2) [x] TUI renderer (secondary) driven by same control graph.
+3) [x] Renderer capability discovery + adaptation.
 
 ## Repo layout (proposed)
 - `apps/web` — Vite SPA (renderer + engine runtime)
