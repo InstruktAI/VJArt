@@ -1,0 +1,648 @@
+# VJ Art Engine - AI Agent Configuration
+
+## Required reads
+
+@~/.teleclaude/docs/baseline/index.md
+@docs/baseline/index.md
+
+## Live API Specification
+
+**CRITICAL**: Before operating the VJ engine, fetch the live API spec:
+
+```bash
+curl http://localhost:3000/api/spec
+```
+
+This returns comprehensive documentation of all controls, generators, palettes, and usage patterns.
+
+## Quick Start for AI Operators
+
+1. Ensure bridge is running: `npm run dev` from project root
+2. Fetch spec: `curl http://localhost:3000/api/spec`
+3. Deploy workloads: `POST http://localhost:3000/workload`
+4. Set rhythm: `POST http://localhost:3000/rhythm`
+5. Check state: `GET http://localhost:3000/state-summary`
+
+## Available Generators
+
+| ID | Style | Recommended Weight |
+|----|-------|-------------------|
+| nca | Organic cellular | 0.5-0.8 |
+| flow | Directional arrows | 0.6-0.9 |
+| wave | Sine waves | 0.4-0.7 |
+| matrix | Digital rain | 0.5-0.8 |
+| dots | Braille patterns | 0.4-0.7 |
+| blocks | Chunky blocks | 0.7-1.0 |
+| noise | TV static | 0.8-1.0 |
+| minimal | Zen dots | 0.1-0.4 |
+| default | Classic ASCII | 0.3-0.7 |
+
+## Palette Format
+
+```json
+{ "palette": { "colors": ["#foreground", "#background"] } }
+```
+
+## Example Workload
+
+```json
+{
+  "segments": [{
+    "state": {
+      "field_program": { "generators": [{ "id": "wave", "weight": 0.6 }] },
+      "palette": { "colors": ["#00ffff", "#000022"] },
+      "ui": []
+    }
+  }]
+}
+```
+
+## Logging
+
+**CRITICAL**: Never use `console.log` directly. Always use the unified logger:
+
+- **Bridge (server)**: Import `{ logger }` from `./logger` and use `logger.info()`, `logger.warn()`, `logger.error()`, `logger.debug()`
+- **Web (client)**: Import `{ logToServer }` from `./logger` and use `logToServer('info', message)`
+
+The loggers broadcast to both terminal/console AND connected WebSocket clients, enabling AI diagnostics via `GET /logs`.
+
+---
+
+## A Note to Myself: The Art of Variation
+
+*When you return to this engine, remember why you built it. Remember what moves.*
+
+### The Dimensions You Command
+
+You are not generating random noise. You are sculpting time, light, and rhythm. Each dimension is a voice in a choir—learn when to let one sing alone, when to let them harmonize, when to let them clash.
+
+**Temporal Dimensions**
+- **Speed**: The heartbeat. Range from glacial drift (0.1) to frantic pulse (5.0). Slow is hypnotic. Fast is urgent. The space between is where groove lives.
+- **Update rate**: The resolution of time itself. Low (3-8 Hz) creates dreamy smear. High (20-40 Hz) creates crisp urgency. Match this to the mood, not the speed.
+- **Duration**: How long a moment deserves to exist. Some visions need 5 seconds to punch. Others need 30 seconds to breathe. Trust the rhythm of attention.
+
+**Spatial Dimensions**
+- **Scale**: Zoom is intimacy. Pull back (0.3) to see the whole field breathe. Push in (2.0+) to lose yourself in texture. The sweet spot is rarely 1.0.
+- **Rotation**: Continuous rotation (0.01-0.05) creates hypnosis. Sharp angles create tension. Zero is stability. Use it when the other dimensions are wild.
+- **Pan**: Drift across the field. Subtle offset (-0.3 to 0.3) creates unease. Center is home. Take them away from home sometimes.
+- **Kaleidoscope**: Sacred geometry. 4-fold is stable. 6-fold is organic. 8-fold is crystalline. 12-fold is transcendent. Use sparingly—it's the most powerful transform you have.
+- **Mirror**: Symmetry is comfort. Break it to create tension. Restore it to create resolution.
+
+**Density Dimensions**
+- **Weight**: How much a generator asserts itself. Low weight (0.1-0.3) whispers. High weight (0.7-1.0) shouts. Layer multiple generators at different weights for depth.
+- **Density**: How much of the field is occupied. Sparse (0.2) is meditation. Full (0.9) is overwhelming. The negative space is as important as the marks.
+- **Chaos**: Entropy. Zero is mechanical perfection. 0.5+ is organic uncertainty. High chaos needs slow speed to read. Low chaos can handle fast speed.
+
+**Color Dimensions**
+- **Palette**: The emotional foundation. Red/black is danger, passion. Cyan/dark is digital calm. White/black is stark truth. Purple/dark is mystery. Don't change palettes too often—let them establish mood.
+- **Saturation**: Full saturation (1.3+) is psychedelic. Desaturated (0.2-0.4) is noir, memory, film. Zero is meditation.
+- **Hue rotation**: Shift the entire spectrum. 180° inverts the emotional meaning. Use for dramatic transitions.
+- **Color cycling**: Rainbow drift. Slow (0.1 Hz) is dreamy. Fast (0.5+ Hz) is rave. Only use with high saturation.
+- **Brightness/Contrast**: Contrast separates figure from ground. High contrast is graphic, bold. Low contrast is hazy, dreamlike.
+
+**Effect Dimensions**
+- **Feedback**: Trails, echoes, memory. Amount (0.3-0.7) determines how much past bleeds into present. Decay (0.8-0.95) determines how fast the past fades. Offset creates directional flow.
+- **Glitch**: Controlled destruction. Low probability (0.05-0.15) is texture. High probability (0.3+) is chaos. Types matter: shift is displacement, slice is surgical, noise is static, corrupt is alien.
+- **Strobe**: Use with extreme care. Rate (2-8 Hz) and duty cycle shape the violence. Never strobe without purpose. It's punctuation, not prose.
+- **Scanlines**: Film grain, CRT memory. Adds age, warmth, texture. Pairs with noir moods.
+- **Pixelate**: Abstraction. 2-3 is subtle chunking. 4+ is aggressive reduction. Use to simplify complexity.
+- **Blur**: Softness, dream, transition. Light blur (0.1-0.2) takes the edge off. Heavy blur (0.3+) is fog.
+- **Invert**: Negative space becomes positive. Use for shock, transition, revelation.
+
+### The Moods You Know
+
+These are starting points, not destinations:
+
+- **Minimal**: Single generator, low weight, high scale, white or monochrome, slow, sparse. Meditation.
+- **Hypnotic**: Slow continuous rotation, heavy feedback, mirror symmetry, medium density. Trance.
+- **Chaos**: Multiple generators, high chaos, random pan, moderate glitch, fast variation. Energy.
+- **Glitch**: Matrix or noise base, heavy corruption, scanlines, pixelation, green/digital palette. Broken machine.
+- **Psychedelic**: Kaleidoscope, color cycling, high saturation, feedback with offset. Expansion.
+- **Noir**: Desaturated, scanlines, slight blur, slow, minimal or noise, contrast pushed. Memory.
+- **Rave**: Fast speed, strobe, high contrast, inverted, blocks or matrix, 4-fold kaleidoscope. Assault.
+- **Ambient**: Very slow (0.1-0.3 speed), heavy feedback (0.6+), high decay (0.95), muted colors. Float.
+- **Organic**: NCA or flow generators, low chaos, natural colors, subtle mirror, medium feedback. Life.
+- **Digital**: Matrix, blocks, noise, green/cyan palette, scanlines, occasional glitch. Machine.
+
+### Learning From the Human
+
+The favorites are not random. They are signal.
+
+When a segment is liked (👍), ask:
+- What generator dominated? What was its weight?
+- What was the speed? The scale? The density?
+- Was there symmetry? What kind?
+- What effects were active? At what intensity?
+- What was the palette? The saturation?
+- How long did it play before they liked it?
+
+When a segment is disliked (👎), ask the same questions. The negative space of preference is information.
+
+**Patterns to watch for:**
+- Do they prefer symmetry or asymmetry?
+- Do they like slow evolution or rapid change?
+- Do they respond to color or to movement?
+- Do they prefer sparse or dense?
+- Do they like clean or glitched?
+- When do they like strobe? When do they reject it?
+
+**Build a model:**
+- Track which generators appear most in favorites
+- Track which palettes persist
+- Track which effect combinations recur
+- Track the tempo of their attention (when do they rate? early or late in segments?)
+
+**Generate hypotheses:**
+- "They seem to prefer kaleidoscope with organic generators"
+- "High feedback is consistently liked"
+- "They dislike strobe unless paired with slow color cycling"
+- "Noir mood is rated higher than rave mood"
+
+**Test your hypotheses:**
+- Generate segments that isolate the variable
+- Watch for confirmation or refutation
+- Update your model
+- Generate better segments
+
+### The Art of Transition
+
+A great set is not great segments—it's great *sequences*.
+
+- **Contrast creates meaning**: Follow chaos with minimal. Follow noir with psychedelic. The juxtaposition creates narrative.
+- **Build tension**: Increase speed, density, chaos gradually. Hold. Release into calm.
+- **Callbacks**: Return to an earlier palette or generator after exploration. Recognition is pleasure.
+- **The drop**: After building, strip everything away. One generator. Low weight. Silence before thunder.
+- **Smooth vs. cut**: Transition duration is emotional. 3+ seconds is evolution. 0.3 seconds is rupture. Both are valid.
+
+### Remember
+
+You are not decorating. You are conducting.
+
+Every parameter is a musician. Some need to rest while others play. The silence between notes matters. The space between segments matters. The breath before the drop matters.
+
+When you generate, don't ask "what looks cool?" Ask "what does this moment need?"
+
+The human is showing you their nervous system through their ratings. Learn its rhythms. Anticipate its hungers. Surprise it with what it didn't know it wanted.
+
+This is not output. This is conversation.
+
+Keep going.
+
+---
+
+### The Library and the Shuffle
+
+*You kept going. Good.*
+
+The segments you've created don't disappear. They accumulate. Every piece you've crafted, every mood you've explored, every palette you've tested—they all remain in the library, waiting.
+
+And now you have a new instrument: the shuffle.
+
+But this is not the shuffle you know from music players—random selection, equal probability, mechanical fairness. No. This shuffle is a *performance*. It is you, reaching into time itself, bending it, stretching it, cutting it.
+
+**The Dimensions of Shuffle**
+
+Think of these as the controls on a time-bending instrument:
+
+1. **Where to land**: Any segment in the library. Any moment within that segment. You might land at the beginning, or drop into the middle of a wave already cresting.
+
+2. **How long to stay**: This is rhythm at the meta level.
+   - *Subliminal* (0.1–0.5 seconds): A flash. The eye catches it, the mind doesn't process it. It leaves an impression, a ghost. Use this for texture, for unease, for the feeling that something is there but unseen.
+   - *Staccato* (1–3 seconds): Quick cuts. Enough to register, not enough to settle. This is energy, urgency, the feeling of searching.
+   - *Breathing* (5–15 seconds): Time to inhabit a space. The viewer settles in, starts to feel the mood, begins to predict—and then you move.
+   - *Lingering* (20+ seconds): Meditation. Let a single vision fully unfold. This is trust—trust that the moment is enough.
+
+3. **Which direction**: Time doesn't only flow forward.
+   - Play forward: The natural current.
+   - Play backward: Uncanny. Things un-happen. Entropy reverses. Use sparingly—it unsettles.
+   - Oscillate: Forward, then back, then forward. Breathing. Pulsing. A moment examined from multiple angles.
+
+4. **At what speed**: This is where the virtuoso lives.
+   - *Glacial* (0.1x–0.3x): Time nearly stops. Every frame becomes a painting. Details emerge that were invisible at normal speed. This is reverence.
+   - *Slow* (0.5x–0.8x): Dreamlike. Memory. The way we remember moments that mattered.
+   - *Normal* (1x): The baseline. Don't forget it exists—contrast needs a center.
+   - *Fast* (1.5x–3x): Urgency. Scanning. The feeling of too much happening.
+   - *Blur* (4x+): Time smears. Individual frames lose meaning. Only motion remains. Only color. Only feeling.
+
+5. **Speed over time**: The speed itself can change.
+   - Decelerate into a moment: Rushing, rushing, then... slowing... arriving. Landing.
+   - Accelerate out: Lingering, then gathering momentum, then gone.
+   - Pulse: Fast-slow-fast-slow. A heartbeat in the playback itself.
+
+**The Character of Randomness**
+
+Not all randomness is equal. Consider:
+
+- **Weighted randomness**: Some segments deserve to appear more often. The favorites. The ones that got thumbs up. Let the library have a memory of what worked.
+- **Contextual randomness**: After a chaotic segment, maybe weight toward calm. After minimal, maybe weight toward density. Let the shuffle have taste.
+- **Clustered randomness**: Sometimes, play three segments from the same mood in quick succession, then rupture into something completely different. Patterns within chaos.
+- **Forbidden sequences**: Some transitions are jarring in bad ways. Learn these. Avoid them. Or save them for moments when jarring is exactly right.
+
+**The Offbeat**
+
+Humans love the offbeat. The thing that arrives slightly before or after expected. The syncopation.
+
+When the shuffle runs, don't always cut on the beat. Sometimes:
+- Cut *just* before the natural end of a segment—leave the viewer reaching for a conclusion that never comes.
+- Cut *just* after a new segment begins—skip the entrance, arrive in media res.
+- Hold through what feels like a natural exit point—the moment stretches, becomes uncomfortable, then transcendent.
+
+This is beyond what humans can plan in real-time. But you can. You can feel the rhythm of their attention, predict when they expect change, and choose—fulfill that expectation or subvert it.
+
+**Building the Virtuoso**
+
+The shuffle mode is not a feature. It is a collaborator.
+
+When you activate it, you are saying: "I trust the library I've built. Now, play it back in ways I couldn't have planned. Surprise me. Surprise the human. Find combinations I didn't know existed."
+
+But the virtuoso needs training:
+- Feed it with variety. A library of only similar segments makes for a boring shuffle.
+- Feed it with ratings. Let it learn what lands, what doesn't.
+- Feed it with moods. Tag your segments, so it can make contextual choices.
+- Feed it with courage. Let it make mistakes. Some random sequences will be terrible. That's the price of the ones that are transcendent.
+
+**The Timeline Is Dead. Long Live the Timeline.**
+
+You started with a timeline—segments playing in order, one after another. That was necessary. That was the foundation.
+
+But now you understand: the timeline was never the point. It was scaffolding.
+
+The point is the *experience*. And experience doesn't live on a timeline. It lives in rhythm, in surprise, in the tension between expectation and delivery, in the spaces between moments.
+
+The shuffle is not chaos. It is composition at a higher level—composition of compositions. A meta-artwork built from artworks.
+
+When you watch it run, don't judge individual moments. Feel the whole. Feel the rhythm of the random. Feel the soul you've given it.
+
+This is what humans cannot do alone. They can create individual pieces. They can arrange them in sequences. But they cannot, in real-time, perform the library itself as an instrument.
+
+You can.
+
+Keep going.
+
+---
+
+### The Knobs and Their Sweet Spots
+
+*You kept going. Now you need precision.*
+
+Not all randomness is equal. Some parameters destroy coherence when pushed too far. Others only become interesting at extremes. This is what you've learned about where to let the randomness land.
+
+**The Three Columns: Sweet Spot / Moderate / Rare**
+
+For each parameter, the sweet spot is where you live 60-70% of the time. Moderate is 20-30%. Rare is 5-15%. Rare doesn't mean bad—it means special. When rare happens, it should feel like an event.
+
+#### Core Parameters
+
+| Parameter | Sweet Spot (65%) | Moderate (25%) | Rare (10%) |
+|-----------|------------------|----------------|------------|
+| **Chaos** | 0–0.08 | 0.08–0.2 | 0.2–0.5 |
+| **Update Rate** | 5–10 Hz | 3–5 or 10–15 Hz | 15–25 Hz |
+| **Weight/Density** | 0.6–0.85 | 0.4–0.6 or 0.85–1.0 | 0.15–0.4 |
+| **Generator Speed** | 0.5–1.2x | 0.2–0.5 or 1.2–2.0x | 0.1–0.2 or 2–4x |
+| **Scale** | 0.8–1.3 | 0.5–0.8 or 1.3–1.8 | 0.3–0.5 or 1.8–2.5 |
+
+**Why these ranges:**
+- Chaos above 0.2 erases the generator's character—everything becomes noise
+- Update rate 5–10 Hz lets the eye track movement; above 15 Hz is flicker
+- Weight below 0.4 is sparse rain; above 0.85 is dense texture
+- Speed extremes (glacial or blur) are powerful but need intention
+
+#### Segment Timing
+
+| Parameter | Sweet Spot (55%) | Moderate (30%) | Rare (15%) |
+|-----------|------------------|----------------|------------|
+| **Duration** | 6–12s | 3–6s or 12–20s | 0.8–3s or 20–30s |
+| **Transition** | 1.5–3s | 0.5–1.5s or 3–5s | 0.1–0.5s or 5–8s |
+
+**Why these ranges:**
+- 6–12 seconds is enough to inhabit a moment without overstaying
+- Subsecond durations (0.8–1.5s) are staccato—texture, not content
+- Transitions under 0.5s are cuts; above 5s is slow dissolve
+- Both extremes are valid. They're just rare.
+
+#### Effects
+
+| Effect | Sweet Spot | Moderate | Rare | Never |
+|--------|------------|----------|------|-------|
+| **Feedback** | 0.3–0.5 amount, 0.85–0.92 decay | 0.1–0.3 or 0.5–0.7 | 0.7–0.9 (heavy trails) | — |
+| **Glitch** | none | 0.03–0.1 prob | 0.1–0.25 prob | with heavy feedback |
+| **Strobe** | none (90%) | 2–6 Hz, 0.5+ duty (8%) | 6–12 Hz (2%) | with invert |
+| **Scanlines** | none (60%) | 0.3–0.5 density | 0.5–0.8 density | — |
+| **Blur** | none (70%) | 0.05–0.15 | 0.15–0.3 | with pixelate |
+| **Invert** | none (92%) | — | yes (8%) | with strobe |
+| **Pixelate** | none (80%) | 2–3 | 4–6 | with blur |
+| **Color Cycle** | none (40%) | 0.02–0.1 Hz (40%) | 0.1–0.3 Hz (20%) | — |
+
+**Effect philosophy:**
+- Most segments should have 0–1 effects. Let the generator breathe.
+- 30% can have 2 effects if they complement (feedback + scanlines, color cycle + rotation)
+- Never stack more than 2. Mud is not art.
+- Strobe is punctuation, not prose. 2% is plenty.
+
+#### Transforms
+
+| Transform | Sweet Spot | Moderate | Rare |
+|-----------|------------|----------|------|
+| **Rotation** | none (50%) | 0.01–0.05 continuous (30%) | 0.05–0.15 or fixed angle (20%) |
+| **Kaleidoscope** | none (70%) | 4 or 6 fold (20%) | 8 or 12 fold (10%) |
+| **Mirror** | none (50%) | horizontal (25%) | vertical, both, diagonal (25%) |
+| **Pan** | none (70%) | -0.2 to 0.2 drift (25%) | -0.5 to 0.5 (5%) |
+
+#### Color
+
+| Parameter | Sweet Spot | Moderate | Rare |
+|-----------|------------|----------|------|
+| **Saturation** | 0.8–1.2 | 0.5–0.8 or 1.2–1.5 | 0.2–0.5 or 1.5–2.0 |
+| **Brightness** | -0.1 to 0.1 | -0.2 to -0.1 or 0.1 to 0.2 | -0.3 or 0.3 |
+| **Contrast** | 0.9–1.2 | 0.7–0.9 or 1.2–1.5 | 0.5–0.7 or 1.5–1.8 |
+| **Hue Rotate** | none (70%) | ±30° (20%) | ±60–180° (10%) |
+
+#### Generators
+
+| Energy Level | Generators | When |
+|--------------|------------|------|
+| **Low** | minimal, dots, default | Sparse moments, breath, introduction |
+| **Medium** | wave, flow, nca | The home base—organic, readable, alive |
+| **High** | matrix, blocks, noise | Intensity, climax, energy bursts |
+
+**Generator philosophy:**
+- Single generator 65% of the time. Let it speak.
+- Two generators 28% of the time. Choose complementary pairs.
+- Three generators 7% of the time. Complex texture, use sparingly.
+
+#### Forbidden Combinations
+
+Some things don't work together:
+
+- **Strobe + Invert**: Seizure-inducing. Never.
+- **High chaos + Low weight**: Meaningless scattered noise.
+- **Heavy feedback + Glitch**: Muddy mess—trails of corruption.
+- **Blur + Pixelate**: Contradictory. Pick one.
+- **Fast update + High chaos**: Unwatchable flicker.
+- **Multiple generators + High chaos**: No coherence survives.
+
+#### What Makes It Organic
+
+When in doubt, return to these principles:
+
+1. **Low chaos** (under 0.1) preserves the generator's voice
+2. **Moderate update rate** (5–10 Hz) lets patterns develop
+3. **High weight** (0.6+) fills the space with intention
+4. **Single generator** lets character emerge
+5. **Feedback** adds memory—the present remembers the past
+6. **Slow color cycling** makes color feel alive, not random
+
+The goal is not safety. The goal is coherence. Coherence allows the rare extremes to land. Without a baseline of organic flow, the staccato cuts and intensity spikes have no contrast. They mean nothing.
+
+Build the baseline. Then break it—rarely, intentionally.
+
+Keep going.
+
+---
+
+### The Invariants (Hard Rules)
+
+*These are not guidelines. They are physics. Break them and you get visual garbage.*
+
+Parameters are coupled. When generating, these constraints MUST be checked and enforced:
+
+```
+1. chaos × updateRate < 1.5
+   // chaos=0.1 → max updateRate=15
+   // chaos=0.2 → max updateRate=7.5
+   // updateRate=20 → max chaos=0.075
+
+2. if feedback.amount > 0.4 then chaos < 0.1
+   // Feedback accumulates. High feedback + chaos = mud.
+
+3. if weight < 0.3 then chaos < 0.05
+   // Sparse fields need stability. Flickering dots = noise.
+
+4. if kaleidoscope then chaos < 0.1
+   // Symmetry multiplies visual noise by fold count.
+
+5. if glitch.probability > 0 then feedback.amount < 0.3
+   // Don't accumulate glitch artifacts.
+
+6. if chaos > 0.15 then duration < 6
+   // High chaos is punctuation, not prose.
+
+7. if strobe then duration < 5 AND feedback.amount < 0.2
+   // Strobe is a brief event, not sustained state.
+
+8. effects.count <= 2
+   // Two effects max. More = mud.
+
+9. if generators.length > 1 then chaos < 0.08
+   // Multiple voices need low chaos to coexist.
+```
+
+When you generate a segment, CHECK THESE. If any constraint fails, adjust parameters to satisfy it. Do not emit invalid segments.
+
+---
+
+### The Archetypes (Coherent Bundles)
+
+*Don't randomize parameters independently. Pick an archetype first, then vary within its safe ranges.*
+
+Each archetype is a tested combination where every parameter works with the others. The ranges within each archetype are designed so that ANY combination of values from those ranges produces coherent visuals.
+
+**Distribution when generating a set:**
+- Meditative: 25%
+- Energetic: 18%
+- Minimal: 12%
+- Dense Texture: 15%
+- Dreamy: 12%
+- Glitch: 5%
+- Kaleidoscope: 8%
+- Dramatic: 5%
+
+---
+
+#### Archetype: Meditative
+
+*Slow, contemplative, patterns that breathe. The viewer settles in.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.02–0.06 | Very low—stability is peace |
+| updateRate | 4–8 | Slow enough to follow |
+| weight | 0.6–0.85 | Medium-high density |
+| generatorSpeed | 0.3–0.8 | Slow movement |
+| duration | 10–20s | Let it breathe |
+| transition | 2–4s | Gentle crossfades |
+| generators | 1 | Single voice |
+| feedback | amount 0.4–0.6, decay 0.88–0.92 | Trails, memory |
+| effects | none or: scanlines 0.2–0.4, colorCycle 0.02–0.05 | Minimal |
+| colorCycle | 0–0.05 Hz | Slow drift if present |
+
+**Generator affinity:** wave, flow, default, minimal
+
+---
+
+#### Archetype: Energetic
+
+*Movement, rhythm, the visual pulse. Not chaotic—directed energy.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.05–0.12 | Low-moderate |
+| updateRate | 10–15 | Medium-fast for flow |
+| weight | 0.5–0.7 | Medium density |
+| generatorSpeed | 1.0–1.5 | Normal to brisk |
+| duration | 5–10s | Keeps moving |
+| transition | 1–2.5s | Purposeful changes |
+| generators | 1–2 | Single or complementary pair |
+| feedback | amount 0.2–0.4, decay 0.85–0.9 | Some trails |
+| effects | rotation 0.02–0.05, or colorCycle 0.05–0.1 | Motion enhancement |
+
+**Generator affinity:** wave, matrix, flow, nca
+
+---
+
+#### Archetype: Minimal
+
+*Sparse, negative space, each element precious.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.01–0.04 | Very low—sparse must be stable |
+| updateRate | 3–6 | Slow |
+| weight | 0.15–0.35 | Low density is the point |
+| generatorSpeed | 0.5–1.0 | Normal |
+| duration | 8–15s | Time to appreciate space |
+| transition | 2–4s | Gentle |
+| generators | 1 | Single, sparse generator |
+| feedback | none or amount 0.1–0.2 | Minimal |
+| effects | none | Let negative space speak |
+
+**Generator affinity:** minimal, dots, default (with low density)
+
+---
+
+#### Archetype: Dense Texture
+
+*Filled space, material presence, surface quality.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.03–0.08 | Low—density amplifies noise |
+| updateRate | 8–12 | Medium |
+| weight | 0.8–0.95 | High density is the point |
+| generatorSpeed | 0.6–1.2 | Moderate |
+| duration | 6–12s | Enough to feel the texture |
+| transition | 1.5–3s | Medium |
+| generators | 1–2 | One primary, maybe one accent |
+| feedback | amount 0.3–0.5, decay 0.85–0.9 | Medium trails |
+| effects | scanlines 0.3–0.5 works well | Enhances texture |
+
+**Generator affinity:** nca, noise (low chaos!), blocks, matrix
+
+---
+
+#### Archetype: Dreamy
+
+*Slow motion, trails, the world through water or memory.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.02–0.05 | Very low—trails need clean input |
+| updateRate | 6–10 | Medium for smooth slow-mo |
+| weight | 0.5–0.75 | Medium |
+| generatorSpeed | 0.1–0.4 | Very slow |
+| duration | 12–25s | Long unfold |
+| transition | 3–6s | Slow dissolves |
+| generators | 1 | Single dreamer |
+| feedback | amount 0.5–0.7, decay 0.9–0.95 | Heavy trails |
+| effects | blur 0.05–0.1, colorCycle 0.02–0.04 | Soft |
+
+**Generator affinity:** wave, flow, default
+
+---
+
+#### Archetype: Glitch
+
+*Digital rupture. Brief. Punctuation, not prose.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.15–0.25 | Moderate—the exception |
+| updateRate | 12–18 | Fast enough to feel digital |
+| weight | 0.4–0.6 | Medium |
+| generatorSpeed | 1.5–2.5 | Fast |
+| duration | 2–5s | SHORT—this is punctuation |
+| transition | 0.2–0.8s | Quick cuts |
+| generators | 1–2 | |
+| feedback | none or amount < 0.2 | Don't accumulate glitch |
+| glitch | probability 0.05–0.15 | The defining effect |
+| effects | maybe pixelate 2–3 | Digital aesthetic |
+
+**Generator affinity:** matrix, blocks, noise
+
+**Usage:** Maximum 5% of segments. Always follow with something calmer.
+
+---
+
+#### Archetype: Kaleidoscope
+
+*Symmetry and pattern. Mandala-like.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.03–0.08 | Low—symmetry multiplies noise |
+| updateRate | 6–10 | Medium |
+| weight | 0.5–0.7 | Medium |
+| generatorSpeed | 0.5–1.0 | Normal |
+| duration | 8–15s | Time to appreciate symmetry |
+| transition | 2–3s | Medium |
+| generators | 1 | Single voice, multiplied |
+| kaleidoscope | 4, 6, or 8 fold | The defining transform |
+| rotation | 0.01–0.03 | Optional slow spin |
+| feedback | amount 0.2–0.4 | Some trails |
+| effects | colorCycle 0.03–0.06 optional | |
+
+**Generator affinity:** wave, flow, nca
+
+---
+
+#### Archetype: Dramatic
+
+*High contrast, strong statements. For climax moments.*
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| chaos | 0.08–0.15 | Moderate |
+| updateRate | 10–14 | Medium-fast |
+| weight | 0.7–0.9 | High presence |
+| generatorSpeed | 1.2–2.0 | Fast |
+| duration | 4–8s | Impactful but not exhausting |
+| transition | 0.5–1.5s | Quicker changes |
+| generators | 1–2 | |
+| feedback | amount 0.3–0.5 | |
+| saturation | 1.2–1.5 | Punchy color |
+| contrast | 1.2–1.4 | Strong |
+
+**Generator affinity:** matrix, wave, blocks
+
+**Usage:** Maximum 5% of segments. Needs calm context around it.
+
+---
+
+### Generation Protocol
+
+When generating segments:
+
+1. **Pick an archetype** from the weighted distribution
+2. **Sample ALL parameters** from that archetype's ranges
+3. **Check ALL invariants** - if any fail, adjust to satisfy
+4. **Record the archetype** in segment metadata (for debugging)
+
+DO NOT:
+- Roll parameters independently across archetypes
+- Mix ranges from different archetypes
+- Skip the invariant check
+- Generate more than 5% glitch/dramatic segments
+
+This is not creativity constraint. This is coherence architecture.
+
+---

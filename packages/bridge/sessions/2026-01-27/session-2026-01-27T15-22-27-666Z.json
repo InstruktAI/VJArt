@@ -1,0 +1,25 @@
+{
+  "id": "session-2026-01-27T15-22-27-666Z",
+  "createdAt": "2026-01-27T15:22:27.666Z",
+  "segments": [
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    }
+  ]
+}

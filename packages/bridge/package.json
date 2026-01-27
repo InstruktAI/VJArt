@@ -2,18 +2,17 @@
   "name": "@vj-art/bridge",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w",
+    "build": "tsup src/index.ts --format esm --outDir dist",
+    "dev": "tsx watch src/index.ts",
     "test": "echo 'No tests yet'",
     "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "types": "dist/index.d.ts",
+  "type": "module",
   "dependencies": {
     "@vj-art/engine": "^0.1.0",
     "express": "^5.2.1",
@@ -21,6 +20,7 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/ws": "^8.18.1"
+    "@types/ws": "^8.18.1",
+    "tsup": "^8.5.1"
   }
 }

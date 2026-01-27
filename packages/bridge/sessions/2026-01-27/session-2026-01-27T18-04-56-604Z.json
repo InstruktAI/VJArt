@@ -1,0 +1,9639 @@
+{
+  "id": "session-2026-01-27T18-04-56-604Z",
+  "createdAt": "2026-01-27T18:04:56.604Z",
+  "segments": [
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "noise",
+              "weight": 0.9
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.4
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff0088",
+            "#000011"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff88",
+            "#001111"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffaa00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00aaff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "matrix",
+              "weight": 0.7
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ff00",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "blocks",
+              "weight": 0.85
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff00ff",
+            "#000000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    }
+  ]
+}

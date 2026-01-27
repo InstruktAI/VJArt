@@ -1,0 +1,44 @@
+{
+  "id": "session-2026-01-27T16-26-01-627Z",
+  "createdAt": "2026-01-27T16:26:01.627Z",
+  "segments": [
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "minimal",
+              "weight": 0.25
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#888888",
+            "#050505"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "nca",
+              "weight": 0.65
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#aaff00",
+            "#001100"
+          ]
+        },
+        "ui": []
+      }
+    }
+  ]
+}

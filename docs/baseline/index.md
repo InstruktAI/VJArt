@@ -2,7 +2,12 @@ Required reads
 
 @docs/role/creator.md
 @docs/role/operator.md
-@todos/vj-art-engine/requirements.md
-@todos/vj-art-engine/implementation-plan.md
-@schemas/operator-workload.schema.yaml
-@schemas/control-plane.schema.yaml
+@docs/reference/api-spec.md
+@docs/reference/operator-workload.md
+
+## Live API
+
+Always fetch the live API specification before operating:
+```bash
+curl http://localhost:3000/api/spec
+```

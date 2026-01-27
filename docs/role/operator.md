@@ -19,10 +19,19 @@ for interpreting asset references, rhythm, UI intent, and continuity.
 - Renderer capability summary (limits, cost tiers)
 
 ## Output
-Produce **OperatorWorkload** payloads using:
-`schemas/operator-workload.schema.yaml`
-and the control-plane contract:
-`schemas/control-plane.schema.yaml`
+Produce **OperatorWorkload** payloads.
+
+**IMPORTANT**: Always fetch the live API specification first:
+```bash
+curl http://localhost:3000/api/spec
+```
+
+This returns the authoritative specification including:
+- All available generators and their characteristics
+- Palette/color options
+- Weight ranges
+- UI sprite structure
+- AI usage guide
 
 ## Rules
 - **Translate only**: never add commentary or prompts in output.

@@ -7,6 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "dev": "concurrently -n bridge,web -c blue,magenta \"npm run dev -w packages/bridge\" \"npm run dev -w apps/web\"",
+    "dev:bridge": "npm run dev -w packages/bridge",
+    "dev:web": "npm run dev -w apps/web",
     "test": "npm test --workspaces",
     "lint": "eslint .",
     "build": "npm run build -w packages/engine && npm run build -w packages/bridge && npm run build -w apps/web"
@@ -22,9 +25,11 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.53.1",
     "@typescript-eslint/parser": "^8.53.1",
+    "concurrently": "^9.2.1",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }

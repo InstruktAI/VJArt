@@ -1,0 +1,63 @@
+{
+  "id": "session-2026-01-27T16-38-40-780Z",
+  "createdAt": "2026-01-27T16:38:40.780Z",
+  "segments": [
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "wave",
+              "weight": 0.6
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#00ffff",
+            "#000022"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "flow",
+              "weight": 0.8
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ff6600",
+            "#110000"
+          ]
+        },
+        "ui": []
+      }
+    },
+    {
+      "state": {
+        "field_program": {
+          "generators": [
+            {
+              "id": "dots",
+              "weight": 0.5
+            }
+          ]
+        },
+        "palette": {
+          "colors": [
+            "#ffffff",
+            "#220033"
+          ]
+        },
+        "ui": []
+      }
+    }
+  ]
+}
